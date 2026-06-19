@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,6 +98,14 @@
   .btn.ghost{background:#fff;border:1px solid var(--line);color:var(--navy);font-size:13.5px;font-weight:600;padding:11px 16px}
   .btn.ghost:hover{border-color:var(--blue);background:#f2fbff}
   .btn.ghost svg{width:16px;height:16px}
+  .notice-bar{background:#fbf7ef;border-bottom:1px solid #ecdcc0}
+  .notice-inner{display:flex;align-items:center;gap:18px;padding:12px 0;flex-wrap:wrap}
+  .notice-bar .beta{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:300px}
+  .notice-bar .beta-badge{flex:none;background:#6c4ad6;color:#fff;font-weight:800;font-size:11px;letter-spacing:.6px;padding:4px 9px;border-radius:6px;margin-top:1px}
+  .notice-bar .beta-txt{font-size:12px;color:#7a6a4c;line-height:1.45}
+  .notice-bar .beta-txt b{color:#4a3d22}
+  .notice-bar .updated{flex:none;display:inline-flex;align-items:center;gap:7px;background:var(--navy);color:#fff;font-weight:700;font-size:12.5px;padding:7px 13px;border-radius:999px;white-space:nowrap}
+  .notice-bar .updated .updated-dot{width:8px;height:8px;border-radius:50%;background:#36d399;display:inline-block}
 </style>
 </head>
 <body>
@@ -115,6 +122,15 @@
       the spectrum of occupations within each of the priority sectors.</p>
   </div>
 </header>
+<div class="notice-bar">
+  <div class="wrap notice-inner">
+    <div class="beta">
+      <span class="beta-badge">BETA</span>
+      <div class="beta-txt"><b>Beta version — for review and discussion.</b> This dashboard is a preliminary beta version prepared for internal review. The data, indicators, and visualizations are still being validated and may be updated as the methodology is refined and feedback is incorporated.</div>
+    </div>
+    <div class="updated"><span class="updated-dot"></span>Updated June 18, 2026</div>
+  </div>
+</div>
 <div aria-hidden="true" id="topspace" style="height:60px"></div>
 
 
@@ -218,8 +234,8 @@
       <div class="ch"><h3>Global</h3></div>
       <div class="cards">
         <div class="uc" style="grid-column:1 / -1">
-          <span class="tag reg">High-level discussion with the WBG Jobs Council on Skilling Solutions for the Tourism Sector</span>
-          <h4><strong>Unpacking the Jobs Potential:</strong> <em>From Credentials to Capabilities in Tourism &amp; Beyond.</em></h4>
+          <span class="tag reg">WBG Jobs Council - Skilling Solutions for the Tourism Sector</span>
+          <h4>Unpacking the Jobs Potential: From Credentials to Capabilities in Tourism &amp; Beyond</h4>
           <p class="src">South Asia People team · May 2026</p>
           <p class="desc">Preparation of just-in-time inputs to support the WBG Jobs Council in the preparation of a
              note about skilling solutions for the tourism sector.</p>
